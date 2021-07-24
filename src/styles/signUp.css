@@ -1,0 +1,31 @@
+#detailsForm {
+    direction:ltr;
+    margin-top: 100px;
+}
+
+input {
+    text-align: end;
+}
+
+.MuiInputLabel-formControl {
+    left:60% !important;
+}
+
+.detailsForm-btn {
+    width: 100px;
+}
+
+#detailsForm-btnContainer {
+    margin-top: 50px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+@media  screen and (min-width: 400px) {
+    #detailsForm {
+        /* background-color: purple; */
+    }
+    .MuiInputLabel-formContro {
+        right:0 !important;
+    }
+  }

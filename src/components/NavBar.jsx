@@ -6,7 +6,7 @@ export default class NavBar extends Component {
     render() {
         return (
 
-            <div>
+            <div id="navContainer">
                 <Navbar fixed="top" bg="light" expand="lg">
                     <Navbar.Brand href="#">Mr Tax</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />

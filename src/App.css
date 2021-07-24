@@ -2,6 +2,97 @@
   text-align: center;
 }
 
+.body-content {
+  margin-top: 70px;
+}
+
+#mainContainer {
+  padding: 70px 0px 0px 0px ;
+}
+
+#fixedBtn{
+  color: #fff;
+  background-color: #4b7bec;
+  border-color: #4b7bec;
+  position: fixed;
+  right: -3rem;
+  top: 10rem;
+  min-width: 14rem;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 1.5;
+  -webkit-box-shadow: 0 0 1rem #4b7bec;  
+  border-radius: 2.1875rem;
+}
+.btn {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: .68rem 2.5rem;
+}
+
+#footerBtn {
+  margin-bottom: 50px;
+  background-color: #1959ee;
+  border-color: #1959ee;
+  color: white;
+  border-radius: 2.1875rem;
+  -webkit-box-shadow: 0 0 1rem #1959ee;  
+
+
+}
+
+#mainImg {
+  background-image: url('./images/main.jpg');
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 60%;
+  padding-left: 100%;
+}
+
+.whyUs {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 60%;
+  padding-left: 100%;
+}
+#team {
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  padding-left: 100%;
+}
+
+#oneImg {
+  background-image: url('./images/one.jfif');
+}
+#pay {
+  background-image: url('./images/payment.jfif');
+}
+#survey {
+  background-image: url('./images/survey.jfif');
+}
+
+#team {
+  background-image: url('./images/team.jfif');
+}
+
+.num {
+  font-size:50px ;
+  color: rgb(254,210,63);
+  -webkit-box-shadow: 0 0 1rem rgb(254,210,63);  
+}
+
+#nums {
+  background-color: blueviolet;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
