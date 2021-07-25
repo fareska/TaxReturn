@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import SignUp from './components/SignUp';
 import Landing from './components/Landing';
 import  main  from "./images/main.jpg";
+import CreditPointsCheck from './components/CreditPointsCheck';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
 
       <NavBar />
       {/* <Landing /> */}
-      <SignUp getUSerData={getUSerData} />
+      {/* <SignUp getUSerData={getUSerData} /> */}
+      <CreditPointsCheck />
       <footer id="footer">
         <div className="container">
           <div className="row"></div>
